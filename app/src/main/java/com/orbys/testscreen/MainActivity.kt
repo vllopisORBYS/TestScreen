@@ -25,21 +25,13 @@ class MainActivity : AppCompatActivity() {
         val screenWidthInDp = screenWidthInPixels / displayMetrics.density
         val screenHeightInDp = screenHeightInPixels / displayMetrics.density
 
-        val txt1 =  findViewById<TextView>(R.id.tv1)
-      val txt2 =  findViewById<TextView>(R.id.tv2)
+        val txt1 = findViewById<TextView>(R.id.tv1)
+        val txt2 = findViewById<TextView>(R.id.tv2)
 
         txt1.text = "Densidad de la pantalla $density"
 
-        txt2.text = "Piexeles Pantalla: width = $screenWidthInPixels heidht = $screenHeightInPixels  \n DP pantalla: width = $screenWidthInDp , height = $screenHeightInDp"
-
-
-
-
-
-
-
-
-
+        txt2.text =
+            "Piexeles Pantalla: width = $screenWidthInPixels heidht = $screenHeightInPixels  \n DP pantalla: width = $screenWidthInDp , height = $screenHeightInDp"
 
 
     }
